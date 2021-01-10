@@ -31,3 +31,5 @@ nnoremap ,aaa :-1read ~/.vim/snippets/aaa<CR>jjj
 nnoremap ,trun :-1read ~/.vim/snippets/trun<CR>7l
 nnoremap ,tt :-1read ~/.vim/snippets/tt<CR>9la
 nnoremap ,whit :%s/ \+$//g<CR>
+vnoremap > >gv
+vnoremap < <gv
